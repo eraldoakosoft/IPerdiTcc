@@ -6,6 +6,7 @@
     <title>iPerdi</title>
     <link rel="stylesheet" href="style/css-geral.css">
     <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/footer.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
@@ -64,11 +65,11 @@
                 </div>
                 <div class="d-flex div-relogio-svg">
                     <img src="img/relogio.svg" alt="">
-                    <p>E você poderá também registrar outros tipos de items perdidos, como relógios, bonés, celulares entre tantos outros</p>
+                    <p>E você poderá também registrar outros tipos de objetos perdidos, como relógios, bonés, celulares entre tantos outros</p>
                 </div>
                 <div class="d-flex div-mao-svg">
                     <img src="img/mao.svg" alt="">
-                    <p>Nosso sistema possui um sistema de chat, onde os usuários poderão se comunicar</p>
+                    <p>Nosso sistema possui conversa via chat, onde os usuários poderão se comunicar</p>
                 </div>
             </div>
         </div><!--Fim section-2_div1-->
@@ -86,13 +87,7 @@
     </div>
 </section>
 
-<footer>
-    <div class="container">
-        <div>
-            <p>iPerdi © 2021</p>
-        </div>
-    </div>
-</footer>
+<?php include "footer.php" ?>
 
 </body>
 </html>
