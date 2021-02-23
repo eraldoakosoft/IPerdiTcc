@@ -40,3 +40,8 @@ hr {
     font-weight: 600;
     color: #45AD4C;
 }
+@media(max-width: 767px) {
+    .p_acko-software {
+        width: 44%;
+    }
+}
