@@ -23,7 +23,7 @@
 
         <div>
             <button class="header_botao">
-                <a href="#">Entre ou Cadastre-se</a>
+                <a href="login.php">Entre ou Cadastre-se</a>
             </button>
             
         </div>
@@ -78,12 +78,12 @@
 
 <section class="section-3 azul_escuro-marca-bg">
     <div class="container">
-        <div class="d-flex align-items-center flex-column">
-            <h1>Não perca mais tempo!</h1> 
-            <h1>Comece agora a usar o iPerdi</h1>
-            <h1>Acesse o botão abaixo para fazer login ou criar sua conta</h1>
-                <a class="btn-login" href="">iPerdi</a>
-        </div>
+            <div class="d-flex align-items-center flex-column">
+                <h1>Não perca mais tempo!</h1> 
+                <h1>Comece agora a usar o iPerdi</h1>
+                <h1>Acesse o botão abaixo para fazer login ou criar sua conta</h1>
+                <a class="btn-login" href="login.php">iPerdi</a>
+            </div>
     </div>
 </section>
 

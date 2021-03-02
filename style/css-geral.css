@@ -1,3 +1,16 @@
+body {
+    background-color: #F5F6FA;
+}
+a {
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+}
+a,p,h1,h2,h3,h4,h5,button, input {
+    font-family: 'Poppins', sans-serif;
+}
+button {
+    outline: none;
+}
 .verde_marca {
     color: #57FA62;
 }
@@ -128,6 +141,203 @@
 .section-3 h1 {
     text-align: center;
 }
+.div_form-login form {
+    flex-direction: column;
+}
+.div_login-global {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.btn-login-2 {
+    width: 269px;
+    height: 67px;
+    background-color: #155A9E;
+    border-radius: 33px;
+    border: none;
+    margin-top: 50px;
+    transition: ease all .3s;
+    -webkit-transition: ease all .3s;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.btn-login-2:hover {
+    color: #FFFFFF;
+}
+.logo-login img{
+    width: 400px;
+}
+
+.div_form-login input{
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 15px;
+    background: #FFFFFF;
+    outline: none;
+    border: 1px solid #dddfe2;
+    border-radius: 10px;
+    height: 40px;
+}
+.div_form-login input:focus{
+    border-color: #155A9E;   
+    transition: ease all .4s;
+}
+.link_esqueceu-senha {
+    margin-top: 20px;
+    text-align: center;
+}
+.divisor {
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 40px 0px;
+    text-align: center;
+}
+.btn_criar-conta {
+    width: 269px;
+    height: 67px;
+    background-color: #45AD4C;
+    border-radius: 33px;
+    border: none;
+    margin-top: 50px;
+    transition: ease all .3s;
+    -webkit-transition: ease all .3s;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.btn_criar-conta:hover {
+    color: #FFFFFF;
+}
+.modal-header button {
+    border: none;
+    margin-top: -50px;
+}
+.modal-title {
+    font-family: 'Poppins', sans-serif;
+}
+.modal-subtitle {
+    color: #606770;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.input-50 {
+    width: 49%;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 15px;
+    background: #FFFFFF;
+    outline: none;
+    border: 1px solid #dddfe2;
+    border-radius: 10px;
+    height: 40px;
+} 
+.input-50:focus{
+    border-color: #155A9E;   
+    transition: ease all .4s;   
+}
+.input-100 {
+    width: 100%;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 15px;
+    background: #FFFFFF;
+    outline: none;
+    border: 1px solid #dddfe2;
+    border-radius: 10px;
+    height: 40px;
+}
+.input-100:focus {
+    border-color: #155A9E;   
+    transition: ease all .4s;   
+}
+.criar-conta_dt-nasc {
+    color: #606770;
+    font-size: 12px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.select-dia, .select-mes, .select-ano {
+    width: 30% !important;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 15px;
+    background: #FFFFFF;
+    outline: none;
+    border: 1px solid #dddfe2;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 16px;
+}
+.p_dt-nasc {
+    margin-top: 20px;
+}
+.modal-body a {
+    width: 269px;
+    height: 67px;
+    background-color: #155A9E;
+    border-radius: 33px;
+    border: none;
+    margin-top: 50px;
+    transition: ease all .3s;
+    -webkit-transition: ease all .3s;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.header-sistema {
+    background-color: #155A9E;
+    width: 85%;
+    height: 70px;
+}
+.header_ola-sair {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.header_ola-sair p {
+    margin-bottom: 0px;
+    color: #fff;
+    margin-right: 30px;
+}
+.header_ola-sair span {
+    color: #57FA62;
+}
+.header_ola-sair a {
+    color: #FFFFFF;
+}
+.menu-lateral {
+    width: 15%;
+}
+.div_menu-header {
+    display: flex;
+}
+.div_img-logo-menu {
+    margin-top: 50px;
+    height: 100vh;
+}
 
 /* Responsivo*/
 
@@ -206,6 +416,18 @@
     }
     .header_botao a {
         font-size: 15px !important;
+    }
+    .logo-login img {
+        width: 100% !important;
+    }
+    .select-dia, .select-mes, .select-ano {
+        width: 100% !important;
+    }
+    .input-50 {
+        width: 100% !important;
+    }
+    .div_cadastrar-nome {
+        flex-wrap: wrap;    
     }
 }
 

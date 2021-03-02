@@ -16,4 +16,19 @@
     <script src="js/js-geral.js"></script>
 </head>
 
-    
+<header>
+    <div class="div_menu-header">
+        <div class="menu-lateral">
+            <div class="div_img-logo-menu">
+                <img src="img/logo.svg" alt="">
+            </div>
+        </div>
+
+        <div class="header-sistema">
+            <div class="header_ola-sair container"> 
+                <p>Olá, <span>Bruno</span></p>
+                <a href="">Sair</a>
+            </div>
+        </div><!-- Fim header-sistema -->
+    </div><!-- Fim div_menu-header -->
+    </header>
