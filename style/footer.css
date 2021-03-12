@@ -40,6 +40,16 @@ hr {
     font-weight: 600;
     color: #45AD4C;
 }
+.footer-sistema {
+    bottom: 0;
+    left: 0;
+    height: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+/* Responsivo */
+
 @media(max-width: 767px) {
     .p_acko-software {
         width: 44%;

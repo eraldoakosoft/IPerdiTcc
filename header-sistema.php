@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <script src="js/js-geral.js"></script>
 </head>
 
 <header>
@@ -22,9 +21,102 @@
             <div class="div_img-logo-menu">
                 <img src="img/logo.svg" alt="">
             </div>
-        </div>
+            <div class="div_menu-lateral-links">
+                <div class="div_menu-lateral-img-link">
+                    <img src="img/clipboard-red.svg" alt="">
+                    <a href="#">Cadastrar documento perdido</a>
+                </div>
+
+                <div class="div_menu-lateral-img-link">
+                    <img src="img/clipboard.svg" alt="">
+                    <a href="#">Cadastrar documento achado</a>
+                </div>
+                
+                <div class="div_menu-lateral-img-link">
+                    <img src="img/sketch-red.svg" alt="">
+                    <a href="#">Cadastrar item perdido</a>
+                </div>
+
+                <div class="div_menu-lateral-img-link">
+                    <img src="img/sketch-green.svg" alt="">
+                    <a href="#">Cadastrar item achado</a>
+                </div>
+                
+                <div class="div_menu-lateral-img-link">
+                    <img src="img/globe.svg" alt="">
+                    <a href="#">Feed de itens perdidos</a>
+                </div>
+
+                <div class="div_menu-lateral-img-link">
+                    <img src="img/chat.svg" alt="">
+                    <a href="#">Chat</a>
+                </div>
+                
+                <div class="div_menu-lateral-img-link">
+                    <img src="img/settings.svg" alt="">
+                    <a href="#">Configurações</a>
+                </div>
+
+                <div class="div_menu-lateral-img-link">
+                    <img src="img/information.svg" alt="">
+                    <a href="#">Sobre</a>
+                </div>
+
+            </div> <!-- Fim div_menu-lateral-links -->
+        </div> <!-- Fim menu lateral -->
 
         <div class="header-sistema">
+        <button class="btn_menu-toggle">
+                <img src="img/menu.svg" alt="">
+            </button>
+        <div class="menu-toggle menu-escondido">
+
+            <div class="div_menu-lateral-links">
+                    <div class="div_menu-toggle-logo">
+                        <img src="img/logo.svg" alt="">
+                    </div>
+                    <div class="div_menu-lateral-img-link">
+                        <img src="img/clipboard-red.svg" alt="">
+                        <a href="#">Cadastrar documento perdido</a>
+                    </div>
+
+                    <div class="div_menu-lateral-img-link">
+                        <img src="img/clipboard.svg" alt="">
+                        <a href="#">Cadastrar documento achado</a>
+                    </div>
+                    
+                    <div class="div_menu-lateral-img-link">
+                        <img src="img/sketch-red.svg" alt="">
+                        <a href="#">Cadastrar item perdido</a>
+                    </div>
+
+                    <div class="div_menu-lateral-img-link">
+                        <img src="img/sketch-green.svg" alt="">
+                        <a href="#">Cadastrar item achado</a>
+                    </div>
+                    
+                    <div class="div_menu-lateral-img-link">
+                        <img src="img/globe.svg" alt="">
+                        <a href="#">Feed de itens perdidos</a>
+                    </div>
+
+                    <div class="div_menu-lateral-img-link">
+                        <img src="img/chat.svg" alt="">
+                        <a href="#">Chat</a>
+                    </div>
+                    
+                    <div class="div_menu-lateral-img-link">
+                        <img src="img/settings.svg" alt="">
+                        <a href="#">Configurações</a>
+                    </div>
+
+                    <div class="div_menu-lateral-img-link">
+                        <img src="img/information.svg" alt="">
+                        <a href="#">Sobre</a>
+                    </div>
+                </div> <!-- Fim div_menu-lateral-links -->
+        </div> <!-- Fim menu toggle -->
+
             <div class="header_ola-sair container"> 
                 <p>Olá, <span>Bruno</span></p>
                 <a href="">Sair</a>
@@ -32,3 +124,15 @@
         </div><!-- Fim header-sistema -->
     </div><!-- Fim div_menu-header -->
     </header>
+
+    <script>
+        $('.btn_menu-toggle').click(function(){
+            if ($('.menu-toggle').hasClass('menu-escondido')) {
+                    $('.menu-toggle').removeClass('menu-escondido');
+                    $('.menu-toggle').addClass('menu-visivel');
+            } else {
+                $('.menu-toggle').addClass('menu-escondido');
+                $('.menu-toggle').removeClass('menu-visivel');
+            }
+        });
+    </script>

@@ -1,5 +1,5 @@
-<section>
-    <footer>
+<footer>
+    <section>
         <div class="container">
             <div class="footer-div_contato">
                 <h1>Contato</h1>
@@ -21,5 +21,5 @@
                 <p class="p_acko-software">Desenvolvido e mantido por <span>Acko Software</span></p>
             </div>
         </div>
-    </footer>
-</section>
+    </section>
+</footer>

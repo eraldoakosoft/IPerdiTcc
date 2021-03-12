@@ -4,11 +4,15 @@ body {
 a {
     font-family: 'Poppins', sans-serif;
     outline: none;
+    text-decoration: none;
 }
 a,p,h1,h2,h3,h4,h5,button, input {
     font-family: 'Poppins', sans-serif;
 }
 button {
+    outline: none;
+}
+button:focus {
     outline: none;
 }
 .verde_marca {
@@ -329,17 +333,106 @@ button {
     color: #FFFFFF;
 }
 .menu-lateral {
-    width: 15%;
+    width: 18%;
+    height: 100vh;
+    background-color: #FFFFFF;
 }
 .div_menu-header {
     display: flex;
+    height: 70px;
 }
 .div_img-logo-menu {
     margin-top: 50px;
-    height: 100vh;
+    margin-bottom: 50px;
+}
+.div_menu-lateral-links {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.div_menu-lateral-links a {
+    color: #155A9E;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+.div_menu-lateral-img-link {
+    display: flex;
+    margin-bottom: 25px;
+    padding-right: 10px;
+}
+.div_menu-lateral-img-link img {
+    margin-right: 10px;
+}
+.menu-toggle, .btn_menu-toggle {
+    display: none;
 }
 
 /* Responsivo*/
+
+@media(max-width: 1290px) {
+    .div_img-logo-menu img {
+        width: 80%;
+    }
+    .div_menu-lateral-links a  {
+        font-size: 13px;
+    } 
+}
+@media(max-width: 1120px) {
+    .menu-lateral {
+        display: none;
+    }
+    .header-sistema {
+        width: 100%;
+        display: flex;
+        padding-right: 8px;
+    }
+    .menu-toggle {
+        display: flex;
+        padding-left: 20px;
+        height: 100vh;
+        padding-left: 0px;
+        background-color: #FFFFFF;
+        position: absolute;
+        width: 50%;
+        transition: ease all 1s;
+        -webkit-transition:  ease all 1s;
+    }
+    .div_menu-toggle-logo {
+        margin-bottom: 32px;
+    }
+    .div_menu-toggle-logo img {
+        width: 60%;
+    }
+    .btn_menu-toggle {
+        background-color: transparent;
+        border: none;
+        position: absolute;
+        z-index: 999;
+        top: 18px;
+        left: 15px;
+        display: block;
+    }
+    .div_menu-lateral-links {
+        margin-top: 90px;
+    }
+    .div_menu-lateral-img-link a {
+        font-size: 18px;
+    }
+    .menu-toggle .div_menu-lateral-links {
+        height: 100vh;
+    }
+    .menu-escondido {
+        left: -1000px
+    }
+    .menu-visivel {
+        left: 0px
+    }
+}   
 
 @media(max-width: 991px) {
     .section-1_div-svg img {
@@ -404,6 +497,9 @@ button {
         justify-content: center;
         align-items: center;
     }
+    .menu-toggle {
+        width: 60%;
+    }
 }
 
 @media(max-width: 575px) {
@@ -428,6 +524,9 @@ button {
     }
     .div_cadastrar-nome {
         flex-wrap: wrap;    
+    }
+    .menu-toggle {
+        width: 100%;
     }
 }
 
