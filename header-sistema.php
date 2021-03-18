@@ -24,7 +24,7 @@
             <div class="div_menu-lateral-links">
                 <div class="div_menu-lateral-img-link">
                     <img src="img/clipboard-red.svg" alt="">
-                    <a href="#">Cadastrar documento perdido</a>
+                    <a href="cadastrar-documento.php">Cadastrar documento perdido</a>
                 </div>
 
                 <div class="div_menu-lateral-img-link">
@@ -77,7 +77,7 @@
                     </div>
                     <div class="div_menu-lateral-img-link">
                         <img src="img/clipboard-red.svg" alt="">
-                        <a href="#">Cadastrar documento perdido</a>
+                        <a href="/cadastrar-documento.php">Cadastrar documento perdido</a>
                     </div>
 
                     <div class="div_menu-lateral-img-link">
