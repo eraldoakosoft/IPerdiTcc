@@ -391,6 +391,7 @@ button:focus {
     border-radius: 10px;
     padding: 10px;
     transition: ease all .6s;
+    width: 200px;
 }
 .div_tipo-cpf {
     cursor: pointer;
@@ -400,12 +401,16 @@ button:focus {
     color: #fff;
     margin-bottom: 0px;
 }
-.card-cpf:hover, .div_tipo-rg:hover{
+.card-cpf:hover, .div_tipo-rg:hover, .card-cnh:hover, .card-ctps:hover, .card-cartao:hover, .card-carteira_escolar:hover, .card-sus:hover, .card-escolar:hover{
     transform: translateY(-15px);
 }
 .div_tipos-doc {
     margin-left: 15px;
     display: flex;
+    flex-wrap: wrap;
+}
+.div_global-rg{
+    margin-right: 15px;
 }
 .div_tipo-rg {
     cursor: pointer;
@@ -415,7 +420,7 @@ button:focus {
     transition: ease all .6s;
 }
 .card-rg {
-    width: 200px;
+    width: 180px;
     height: 100px;
     background-color: #406852;
     border-radius: 3px;
@@ -453,6 +458,288 @@ button:focus {
     justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+}
+.card-cnh{
+    width: 200px;
+    height: 120px;
+    background-color: #DAFFC6;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+    transition: ease all .6s;
+}
+.card-cnh p{
+    margin-bottom: 1px;
+    font-size: 8px;
+    text-align: center;
+}
+.card-cnh .nome{
+    border: 1px solid black;
+    height: 12px;
+    border-radius: 3px;
+}
+.card-cnh .nome p{
+    text-align: left;
+    padding-left: 3px;
+    font-weight: 600;
+}
+.div_tipo-cnh .img-dados img {
+    transform: rotate(270deg);
+    width: 60px;
+}
+.card-cnh .img-dados{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-cnh .dados-cnh{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 15px;
+}
+.div_tipo-ctps{
+    cursor: pointer;
+    margin-left: 15px;
+}
+.card-ctps{
+    width: 200px;
+    height: 120px;
+    background-color: #3257D4;
+    border-radius: 10px;
+    padding: 10px;
+    transition: ease all .6s;
+}
+.card-ctps p {
+    margin-bottom: 0px;
+    color: #fff;
+    font-size: 8px;
+    text-align: center;
+}
+.card-ctps img{
+    width: 60px;
+    height: 60px;
+}
+.card-ctps .img-dados{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.div-eleitoral{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.eleitoral-nome p{
+    text-align: start;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding-left: 3px;
+    margin-bottom: 3px;
+}
+.eleitoral-dt{
+    width: 36%;
+}
+.eleitoral-dt p{
+    text-align: start;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+    width:100%;
+    padding-left: 3px;
+    margin-bottom: 3px;
+}
+.eleitoral-inscricao{
+    width: 95%;
+    margin-left: 5px;
+}
+.eleitoral-inscricao p{
+    text-align: start;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+    width:100%;
+    padding-left: 3px;
+    margin-bottom: 3px;
+}
+.eleitoral-cidade{
+    width: 53%;
+    margin-right: 3px;
+}
+.eleitoral-cidade p{
+    text-align: start;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+    width: 100%;
+    padding-left: 3px;
+    font-size: 10px;
+}
+.eleitoral-emissao{
+    width: 46%;
+}
+.eleitoral-emissao p {
+    text-align: start;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 3px;
+    width: 100%;
+    padding-left: 3px;
+}
+.div_global-ctps {
+    margin-left: 15px;
+}
+.div_tipo-cartao {
+    cursor: pointer;
+    margin-right: 15px;
+}
+.card-cartao{
+    width: 200px;
+    height: 120px;
+    background-color: #DB2625;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+    transition: ease all .6s;
+}
+.card-cartao p {
+    margin-bottom: 3px;
+    color: #fff;
+}
+.card-cartao .cartao-nome {
+    font-size: 10px;
+    margin-top: 10px;
+}
+.cartao-master{
+    margin-top: 10px;
+    display: flex;
+}
+.cartao-bolav{
+    display: block;
+    width: 30px;
+    border-radius: 30px;
+    height: 30px;
+    background-color: red;
+    position: relative;
+    right: -7px;
+}
+.cartao-bolaa{
+    display: block;
+    width: 30px;
+    border-radius: 30px;
+    height: 30px;
+    background-color: yellow;
+}
+.div_tipo-carteira-escolar{
+    cursor: pointer;
+}
+.card-carteira_escolar{
+    width: 200px;
+    height: 120px;
+    background-color: #CCE8E7;
+    border-radius: 3px;
+    padding: 5px;
+    cursor: pointer;
+    transition: ease all .6s;  
+}
+.estudante-titulo p {
+    color:#929F9F;
+    font-size: 12px;
+}
+.estudante-img-dados{
+    width: 100%;
+    display: flex;
+}
+.estudante-img{
+    width: 40%;
+}
+.estudante-img img{
+    width: 68px;
+}
+.estudante-img-dados p{
+    font-size: 10px;
+    margin-bottom: 3px;
+}
+.div_tipo-sus{
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.card-sus{
+    width: 200px;
+    height: 120px;
+    background-color: #018E50;
+    border-radius: 10px;
+    padding: 10px;
+    transition: ease all .6s;
+}
+.card-sus{
+    color: #fff;
+    margin-bottom: 0px;
+}
+.sus-cruz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sus-cruz img{
+    width: 40px;
+}
+.div_tipo-escolar{
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 15px;   
+}
+.card-escolar{
+    width: 200px;
+    height: 120px;
+    background-color: #DA4605;
+    border-radius: 10px;
+    padding: 10px;
+    transition: ease all .6s;
+}
+.card-escolar p{
+    color: #fff;
+}
+.escolar-bus{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.escolar-bus img{
+    width: 60px;
+}
+.div_tipo-reservista{
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.card-reservista{
+    width: 180px;
+    height: 100px;
+    background-color: #EAF5E2;
+    border-radius: 4px;
+    padding: 10px;
+    transition: ease all .6s;
+    border:1px solid #000;
+}
+.card-reservista-pai{
+    width: 200px;
+    height: 120px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.reservista-img{
+    width: 25%;
+}
+.reservista-img img{
+    width: 40px;
 }
 
 /* Responsivo*/
