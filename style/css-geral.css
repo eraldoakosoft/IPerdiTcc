@@ -401,7 +401,8 @@ button:focus {
     color: #fff;
     margin-bottom: 0px;
 }
-.card-cpf:hover, .div_tipo-rg:hover, .card-cnh:hover, .card-ctps:hover, .card-cartao:hover, .card-carteira_escolar:hover, .card-sus:hover, .card-escolar:hover{
+.card-cpf:hover, .div_tipo-rg:hover, .card-cnh:hover, .card-ctps:hover, .card-cartao:hover, .card-carteira_escolar:hover,
+.card-sus:hover, .card-escolar:hover, .card-reservista-pai:hover, .card-veiculo:hover{
     transform: translateY(-15px);
 }
 .div_tipos-doc {
@@ -666,7 +667,6 @@ button:focus {
 .div_tipo-sus{
     cursor: pointer;
     margin-top: 25px;
-    margin-left: 15px;
 }
 .card-sus{
     width: 200px;
@@ -734,13 +734,85 @@ button:focus {
     align-items: center;
     justify-content: center;
     display: flex;
+    transition: ease all .6s;
 }
 .reservista-img{
-    width: 25%;
+    width: 50%;
 }
 .reservista-img img{
     width: 40px;
+    margin-right: 10px;
 }
+.reservista-img-dados{
+    display: flex;
+}
+.reservista-img-dados p{
+    font-size: 10px;
+}
+.reservista-nome p {
+    border: 1px solid #000;
+    font-size: 10px;
+    margin-top: 20px;
+    border-radius: 4px;
+    padding-left: 4px;
+}
+.div_tipo-veiculo{
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.card-veiculo{
+    width: 200px;
+    height: 120px;
+    background-color: #CCFADD;
+    border-radius: 7px;
+    padding: 5px;
+    cursor: pointer;
+    transition: ease all .6s;
+}
+.card-veiculo p {
+    font-size: 12px;
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+.veiculo-car{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.veiculo-car img{
+    width: 50px;
+}
+.div_tipo-passaporte{
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.card-passaporte{  
+    width: 200px;
+    height: 120px;
+    background-color: #032842;
+    border-radius: 7px;
+    padding: 5px;
+    cursor: pointer;
+    transition: ease all .6s;
+}
+.card-passaporte p{
+    margin-bottom: 3px;
+    color: #D7CDC3;
+    text-align: center;
+    font-size: 12px;
+}
+.card-passaporte img{
+    width: 50px;
+}
+.passaporte-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
 
 /* Responsivo*/
 

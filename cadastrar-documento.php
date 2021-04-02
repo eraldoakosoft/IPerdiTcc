@@ -190,7 +190,40 @@
                         <div class="reservista-img">
                             <img src="img/boy.svg" alt="">
                         </div>
+                        <div class="reservista-dados">
+                            <p>Certificado de dispensa</p>
+                        </div>
                     </div>
+                    <div class="reservista-nome">
+                        <p>Bruno Henrique Pigatto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="div_tipo-veiculo">
+            <p style="text-align:center;">Documento do veículo</p>
+            <div class="card-veiculo">
+                <div>
+                    <p style="text-align:center;">Certificado de registro e licenciamento de veículo</p>
+                </div>
+                <div class="veiculo-car">
+                    <img src="img/eco-car.svg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="div_tipo-passaporte">
+            <p style="text-align:center;">Passaporte</p>
+            <div class="card-passaporte">
+                <div>
+                    <p class="passaporte-mercosul">MERCOSUL</p>
+                </div>
+                <div class="passaporte-img">
+                    <img src="img/brasao.png" alt="">
+                </div>
+                <div>
+                    <p>PASSAPORTE</p>
                 </div>
             </div>
         </div>
