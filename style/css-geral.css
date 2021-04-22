@@ -371,7 +371,7 @@ button:focus {
 .menu-toggle, .btn_menu-toggle {
     display: none;
 }
-.section-1_cadastrar-doc {
+.section-1_cadastrar-doc, .section_cadastro-doc {
     width: 100%;
     height: 100vh;
     padding-left: 18%;
@@ -395,23 +395,15 @@ button:focus {
 }
 .div_tipo-cpf {
     cursor: pointer;
-    margin-right: 15px;
+    margin-right: 25px;
 }
 .card-cpf p {
     color: #fff;
     margin-bottom: 0px;
 }
 .card-cpf:hover, .div_tipo-rg:hover, .card-cnh:hover, .card-ctps:hover, .card-cartao:hover, .card-carteira_escolar:hover,
-.card-sus:hover, .card-escolar:hover, .card-reservista-pai:hover, .card-veiculo:hover{
+.card-sus:hover, .card-escolar:hover, .card-reservista-pai:hover, .card-veiculo:hover, .card-passaporte:hover{
     transform: translateY(-15px);
-}
-.div_tipos-doc {
-    margin-left: 15px;
-    display: flex;
-    flex-wrap: wrap;
-}
-.div_global-rg{
-    margin-right: 15px;
 }
 .div_tipo-rg {
     cursor: pointer;
@@ -419,6 +411,7 @@ button:focus {
     padding: 10px;
     border-radius: 3px;
     transition: ease all .6s;
+    margin-right: 25px;
 }
 .card-rg {
     width: 180px;
@@ -488,6 +481,9 @@ button:focus {
     transform: rotate(270deg);
     width: 60px;
 }
+.div_tipo-cnh{
+    margin-right: 25px;
+}
 .card-cnh .img-dados{
     margin-top: 10px;
     display: flex;
@@ -501,7 +497,7 @@ button:focus {
 }
 .div_tipo-ctps{
     cursor: pointer;
-    margin-left: 15px;
+    margin-right: 25px;
 }
 .card-ctps{
     width: 200px;
@@ -590,12 +586,9 @@ button:focus {
     width: 100%;
     padding-left: 3px;
 }
-.div_global-ctps {
-    margin-left: 15px;
-}
 .div_tipo-cartao {
     cursor: pointer;
-    margin-right: 15px;
+    margin-right: 25px;
 }
 .card-cartao{
     width: 200px;
@@ -636,6 +629,8 @@ button:focus {
 }
 .div_tipo-carteira-escolar{
     cursor: pointer;
+    margin-top: 25px;
+    margin-right: 25px;
 }
 .card-carteira_escolar{
     width: 200px;
@@ -667,6 +662,7 @@ button:focus {
 .div_tipo-sus{
     cursor: pointer;
     margin-top: 25px;
+    margin-right: 25px;
 }
 .card-sus{
     width: 200px;
@@ -691,7 +687,7 @@ button:focus {
 .div_tipo-escolar{
     cursor: pointer;
     margin-top: 25px;
-    margin-left: 15px;   
+    margin-right: 25px;
 }
 .card-escolar{
     width: 200px;
@@ -716,7 +712,7 @@ button:focus {
 .div_tipo-reservista{
     cursor: pointer;
     margin-top: 25px;
-    margin-left: 15px;
+    margin-right: 25px;
 }
 .card-reservista{
     width: 180px;
@@ -759,7 +755,7 @@ button:focus {
 .div_tipo-veiculo{
     cursor: pointer;
     margin-top: 25px;
-    margin-left: 15px;
+    margin-right: 25px;
 }
 .card-veiculo{
     width: 200px;
@@ -786,7 +782,6 @@ button:focus {
 .div_tipo-passaporte{
     cursor: pointer;
     margin-top: 25px;
-    margin-left: 15px;
 }
 .card-passaporte{  
     width: 200px;
@@ -812,9 +807,96 @@ button:focus {
     align-items: center;
     margin-bottom: 10px;
 }
+.div_tipos-doc{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+}
+.form_cadastro-doc-infos{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    background-color: #FFFFFF;
+    padding: 18px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.form_cadastro-doc{
+    margin-left: 15px;
+}
+.form_cadastro-doc-infos input{
+    border: 1px solid #C8CFD1;
+    border-radius: 4px;
+    height: 30px;
+    outline: none;
+    padding-left: 5px;
+}
+.card-cnh a{
+    color: #000000;
+}
+.card-carteira_escolar a{
+    color: #000000;
+}
+.card-sus a{
+    color: #FFFFFF;
+}
+.card-reservista a{
+    color: #000000;
+}
+.card-veiculo a{
+    color: #000000;
+}
+.lbl_horario-time {
+    margin-bottom: 12px;
+}
+.form_horario-time{
+    margin-bottom:18px;
+}
+.form_cadastro-doc-infos textarea{
+    padding: 8px;
+    border: 1px solid #C8CFD1;
+    outline: none;
+    border-radius: 4px;
+}
+.form_div-upload-imagem{
+    margin-bottom: 32px;
+}
+.btn_cadastro-doc{
+    width: 194px;
+    height: 40px;
+    background-color: #155A9E;
+    border-radius: 4px;
+    border: none;
+    margin-top: 36px;
+    transition: ease all .3s;
+    -webkit-transition: ease all .3s;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
 
 
 /* Responsivo*/
+@media(max-width: 1666px){
+    .div_tipo-cartao{
+        margin-top: 25px;
+    }
+}
+
+@media(max-width: 1388px){
+    .div_tipo-titulo{
+        margin-top: 25px;
+    }
+    .div_tipos-doc{
+        margin-left: 15px;
+    }
+}
 
 @media(max-width: 1290px) {
     .div_img-logo-menu img {
@@ -873,6 +955,9 @@ button:focus {
     }
     .menu-visivel {
         left: 0px
+    }
+    .div_tipo-ctps{
+        margin-top: 25px;
     }
 }   
 
