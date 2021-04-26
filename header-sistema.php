@@ -31,7 +31,7 @@
 
                 <div class="div_menu-lateral-img-link">
                     <img src="img/clipboard.svg" alt="">
-                    <a href="#">Cadastrar documento achado</a>
+                    <a href="cadastrar-documento-achado.php">Cadastrar documento achado</a>
                 </div>
                 
                 <div class="div_menu-lateral-img-link">

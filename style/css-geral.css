@@ -391,7 +391,6 @@ button:focus {
     border-radius: 10px;
     padding: 10px;
     transition: ease all .6s;
-    width: 200px;
 }
 .div_tipo-cpf {
     cursor: pointer;
@@ -879,7 +878,9 @@ button:focus {
     justify-content: center;
     text-decoration: none;
 }
-
+.form_cidade-estado{
+    margin-bottom: 12px;
+}
 
 
 /* Responsivo*/

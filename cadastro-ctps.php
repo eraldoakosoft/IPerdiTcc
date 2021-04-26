@@ -14,7 +14,12 @@
                 <input type="date">
                 <input type="time">
             </div>
-           <textarea name="" id="" cols="30" rows="10" placeholder="Local"></textarea>
+            <div class="form_cidade-estado">
+                <input type="text" placeholder="Cidade">
+                <input type="text" placeholder="Estado">
+            </div>
+            <input type="text" placeholder="Logradouro" style="margin-bottom: 12px;">
+           <textarea name="" id="" cols="30" rows="10" placeholder="Descrição"></textarea>
         </div>
         <div class="form_div-upload-imagem">
             <label for="">Insira imagens do documento</label>
