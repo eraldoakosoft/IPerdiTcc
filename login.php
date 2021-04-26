@@ -1,5 +1,5 @@
 <?php include "header.php" ?>
-
+<script src="js/scripts.js" defer></script>
 <section class="bege_marca-bg" style="height: 100vh;">
     <div class="container d-flex justify-content-center align-items-center" style="height:100vh;">
         <div class="div_login-global" style="height: 100vh;">
@@ -8,10 +8,10 @@
             </div>
             <div class="div_form-login">
                 <form action="" class="d-flex">
-                    <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Senha">
+                    <input type="email" id="email" placeholder="Email">
+                    <input type="password" id="senha" placeholder="Senha">
                     <a class="link_esqueceu-senha" href="#">Esqueceu a senha?</a>
-                    <a class="btn-login-2" href="home.php">Entrar</a>
+                    <a class="btn-login-2" id="entrar" onclick="" >Entrar</a>
                 </form>
                 <div class="divisor"></div>
                 <a href="#" class="btn_criar-conta" data-bs-toggle="modal" data-bs-target="#modal-conta" >Criar conta</a>
@@ -106,6 +106,5 @@ for(var i=min; i<=max; i++) {
 }
 
 });
-
 
 </script>

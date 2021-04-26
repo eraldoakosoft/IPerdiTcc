@@ -1,7 +1,7 @@
 <?php include "header-sistema.php" ?>
 
 <section class="section_cadastro-doc">
-
+    <script></script>
     <h1 style="padding-left:15px;margin-bottom:50px;">Cadastro da CNH</h1>
 
     <form action="" method="post" enctype="multipart/form-data" class="form_cadastro-doc">
