@@ -353,7 +353,7 @@ button:focus {
     margin-top: 30px;
 }
 .div_menu-lateral-links a {
-    color: #155A9E;
+    color: #155A9E !important;
     line-height: 20px;
     font-size: 16px;
     font-weight: 600;
@@ -401,7 +401,7 @@ button:focus {
     margin-bottom: 0px;
 }
 .card-cpf:hover, .div_tipo-rg:hover, .card-cnh:hover, .card-ctps:hover, .card-cartao:hover, .card-carteira_escolar:hover,
-.card-sus:hover, .card-escolar:hover, .card-reservista-pai:hover, .card-veiculo:hover, .card-passaporte:hover{
+.card-sus:hover, .card-escolar:hover, .card-reservista-pai:hover, .card-veiculo:hover, .card-passaporte:hover, .card-outros:hover{
     transform: translateY(-15px);
 }
 .div_tipo-rg {
@@ -782,6 +782,10 @@ button:focus {
     cursor: pointer;
     margin-top: 25px;
 }
+.div_tipo-outros{
+    cursor: pointer;
+    margin-top: 25px;
+}
 .card-passaporte{  
     width: 200px;
     height: 120px;
@@ -790,6 +794,21 @@ button:focus {
     padding: 5px;
     cursor: pointer;
     transition: ease all .6s;
+    margin-right: 25px;
+}
+.card-outros{
+    width: 200px;
+    height: 120px;
+    background-color: #EAF5E2;
+    border-radius: 7px;
+    padding: 5px;
+    cursor: pointer;
+    transition: ease all .6s;
+    border: 1px solid #000000;
+}
+.card-outros h1{
+    font-size: 24px;
+    text-align: center;
 }
 .card-passaporte p{
     margin-bottom: 3px;
@@ -1032,6 +1051,9 @@ button:focus {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
 }
+.card-outros a{
+    color: #000000;
+}
 
 /* Responsivo*/
 @media(max-width: 1666px){
@@ -1134,6 +1156,10 @@ button:focus {
     .section-2_div-2 div{
         align-items: center;
     }
+    .section-1_cadastrar-doc{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 }
 
 @media(max-width: 767px) {
@@ -1178,6 +1204,12 @@ button:focus {
     .menu-toggle {
         width: 60%;
     }
+    .div_tipo-passaporte{
+        margin-right: 25px;
+    }
+    .div_tipo-cnh{
+        margin-top: 25px;
+    } 
 }
 
 @media(max-width: 575px) {
@@ -1205,6 +1237,20 @@ button:focus {
     }
     .menu-toggle {
         width: 100%;
+    }
+}
+@media(max-width:516px){
+    .div_tipos-doc{
+        justify-content: center;
+    }
+    .div_global-rg{
+        margin-top: 25px;
+    }
+    .div_tipo-outros{
+        margin-right: 25px;
+    }
+    .div_tipo-passaporte{
+        width: 200px;
     }
 }
 

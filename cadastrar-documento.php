@@ -254,6 +254,15 @@
             </div>
         </div>
 
+        <div class="div_tipo-outros">
+            <p style="text-align:center;">Outros</p>
+            <div class="card-outros">
+                <a href="cadastro-documento-outro.php">
+                    <h1>Outros tipos</h1>
+                </a>
+            </div>
+        </div>
+
 
     </div> <!-- Fim div_tipos-doc -->
 </section>
