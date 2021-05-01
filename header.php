@@ -15,42 +15,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <script src="https://cdn.socket.io/3.1.3/socket.io.min.js" integrity="sha384-cPwlPLvBTa3sKAgddT6krw0cJat7egBga3DJepJyrLl4Q9/5WLra3rrnMcyTyOnh" crossorigin="anonymous"></script>
     <!-- <script src="js/js-geral.js"></script> -->
-    <script>
-        const socket = io("http://192.168.0.66:3000");
-        const login = function () {
-            const user = {
-                "email": document.getElementById('email').value,
-                "senha": document.getElementById('senha').value,
-                "socketID": socket.id
-            }
-            socket.emit('login', user)
-        }
-
-        socket.on('connect', function () {
-            console.log("Conectado no servidor!");
-        })
-
-        socket.on('seu_token', function (token) {
-            document.cookie = token
-        })
-
-        //função para enviar uma mensagem
-        const enviarMensagem = function () {
-            var dadosmensagem = {
-                token: document.cookie,
-                destinatario: document.getElementById('para').value,
-                descricao: document.getElementById('mensagem').value
-            }
-            socket.emit('privatemessage', dadosmensagem)
-        }
-
-        //Escuta evento de nova mensagem
-        socket.on("new_msg", function (data) {
-            console.log("Veio isso => ", data)
-            $('#content').prepend(data.descricao)
-        });
-    
-    </script>
 </head>
 
     

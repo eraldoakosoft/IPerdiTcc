@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://cdn.socket.io/3.1.3/socket.io.min.js" integrity="sha384-cPwlPLvBTa3sKAgddT6krw0cJat7egBga3DJepJyrLl4Q9/5WLra3rrnMcyTyOnh" crossorigin="anonymous"></script>
+    <!-- <script src="js/scripts.js" defer></script> -->
 </head>
 
 <header>
@@ -24,7 +26,7 @@
             <div class="div_menu-lateral-links">
                 <div class="div_menu-lateral-img-link">
                     <img src="img/clipboard-red.svg" alt="">
-                    <a href="cadastrar-documento.php">Cadastrar documento perdido</a>
+                    <a link="localhost/iPerdiTcc/cadastrar-documento.php">Cadastrar documento perdido</a>
                 </div>
 
                 <div class="div_menu-lateral-img-link">

@@ -1,5 +1,5 @@
 <?php include "header-sistema.php" ?>
-
+<script src="js/cadastrarDocumento.js" defer></script>
 <section class="section_cadastro-doc">
 
     <h1 style="padding-left:15px;margin-bottom:50px;">Cadastro do Passaporte</h1>
@@ -13,18 +13,18 @@
                 <input type="date">
             </div>
             <div class="form_cidade-estado">
-                <input type="text" placeholder="Cidade">
-                <input type="text" placeholder="Estado">
+                <input id="post-passaporte-cidade" type="text" placeholder="Cidade">
+                <input id="post-passaporte-estado" type="text" placeholder="Estado">
             </div>
-            <input type="text" placeholder="Logradouro" style="margin-bottom: 12px;">
-           <textarea name="" id="" cols="30" rows="10" placeholder="Descrição"></textarea>
+            <input type="text" id="post-passaporte-logradouro" placeholder="Logradouro" style="margin-bottom: 12px;">
+           <textarea name="" id="post-passaporte-descricao" cols="30" rows="10" placeholder="Descrição"></textarea>
         </div>
         <div class="form_div-upload-imagem">
             <label for="">Insira imagens do documento</label>
             <input type="file" name="input_imagem_anexo" placeholder="Selecione uma imagem ...">
         </div>
 
-        <button type="submit" class="btn_cadastro-doc">Cadastrar</button>
+        <button type="submit" id="cadastrarPassaporte" class="btn_cadastro-doc">Cadastrar</button>
     </form>
 
 
