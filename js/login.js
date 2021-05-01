@@ -18,13 +18,17 @@ btnEntrar.addEventListener("click", function (e) {
     }).then((response) => response.json()).then((json) => {
         console.log(json);
         document.cookie = json.token
-        window.location.href = "home.php"
+        if (json.token == undefined) {
+            return
+        } else {
+            window.location.href = "home.php"
+        }
     }).catch((error) => {
         console.log(error);
     })
 });
 
-btnCadastrar.addEventListener("click", function(e){
+btnCadastrar.addEventListener("click", function (e) {
     e.preventDefault();
     const nick_name = document.querySelector("#cadnome").value
     const sobrenome = document.querySelector("#cadsobrenome").value
@@ -35,7 +39,7 @@ btnCadastrar.addEventListener("click", function(e){
     const dia = document.querySelector("#dia").value
     const data_nascimento = formatarDataNascimento(ano, mes, dia)
     const nomecompleto = nick_name + ' ' + sobrenome
-    var user = {nick_name: nick_name, nome: nomecompleto, email: email, senha: senha, data_nascimento: data_nascimento, id_endereco: {}}
+    var user = { nick_name: nick_name, nome: nomecompleto, email: email, senha: senha, data_nascimento: data_nascimento, id_endereco: {} }
     console.log(user);
     fetch('http://192.168.0.66:3003/cadastro', {
         method: 'POST',
@@ -51,11 +55,11 @@ btnCadastrar.addEventListener("click", function(e){
     })
 })
 
-const formatarDataNascimento = function(ano, mes, dia){
-    if(dia < 10){
+const formatarDataNascimento = function (ano, mes, dia) {
+    if (dia < 10) {
         dia = '0' + dia
-        return data_nascimento = ano + '-' + mes + '-' + dia 
-    }else{
-        return data_nascimento = ano + '-' + mes + '-' + dia 
+        return data_nascimento = ano + '-' + mes + '-' + dia
+    } else {
+        return data_nascimento = ano + '-' + mes + '-' + dia
     }
 }
