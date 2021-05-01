@@ -9,10 +9,9 @@
             <input type="text" placeholder="Número" style="margin-bottom: 12px;">
             <input type="text" placeholder="Nome completo" style="margin-bottom: 12px;">
             <input type="text" placeholder="Nome da mãe" style="margin-bottom: 12px;">
-            <label for="" class="lbl_horario-time">Data, horário e local onde foi encontrado</label>
+            <label for="" class="lbl_horario-time">Data e local onde foi encontrado</label>
             <div class="form_horario-time">
                 <input type="date">
-                <input type="time">
             </div>
             <div class="form_cidade-estado">
                 <input type="text" placeholder="Cidade">

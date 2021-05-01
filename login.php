@@ -11,7 +11,7 @@
                     <input type="email" id="email" placeholder="Email">
                     <input type="password" id="senha" placeholder="Senha">
                     <a class="link_esqueceu-senha" href="#">Esqueceu a senha?</a>
-                    <a class="btn-login-2" id="entrar" onclick="" >Entrar</a>
+                    <a class="btn-login-2" id="entrar" onclick="" href="home.php">Entrar</a>
                 </form>
                 <div class="divisor"></div>
                 <a href="#" class="btn_criar-conta" data-bs-toggle="modal" data-bs-target="#modal-conta" >Criar conta</a>

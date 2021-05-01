@@ -13,10 +13,9 @@
                 <label for="">Data de nascimento</label>
                 <input type="date" placeholder="Data de Nascimento" style="margin-bottom: 12px;">
             </div>
-            <label for="" class="lbl_horario-time">Data, horário e local onde foi encontrado</label>
+            <label for="" class="lbl_horario-time">Data e local onde foi encontrado</label>
             <div class="form_horario-time">
                 <input type="date">
-                <input type="time">
             </div>
             <div class="form_cidade-estado">
                 <input type="text" placeholder="Cidade">

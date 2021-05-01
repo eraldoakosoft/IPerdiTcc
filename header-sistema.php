@@ -49,7 +49,7 @@
 
                 <div class="div_menu-lateral-img-link">
                     <img src="img/chat.svg" alt="">
-                    <a href="#">Chat</a>
+                    <a href="chat.php">Chat</a>
                 </div>
                 
                 <div class="div_menu-lateral-img-link">
