@@ -21,7 +21,9 @@
     <div class="div_menu-header">
         <div class="menu-lateral">
             <div class="div_img-logo-menu">
-                <img src="img/logo.svg" alt="">
+                <a href="home.php">
+                    <img src="img/logo.svg" alt="">
+                </a>
             </div>
             <div class="div_menu-lateral-links">
                 <div class="div_menu-lateral-img-link">
@@ -51,7 +53,7 @@
 
                 <div class="div_menu-lateral-img-link">
                     <img src="img/chat.svg" alt="">
-                    <a href="chat.php">Chat</a>
+                    <a href="chat-list.php">Chat</a>
                 </div>
                 
                 <div class="div_menu-lateral-img-link">
@@ -84,12 +86,12 @@
 
                     <div class="div_menu-lateral-img-link">
                         <img src="img/clipboard.svg" alt="">
-                        <a href="#">Cadastrar documento achado</a>
+                        <a href="/cadastrar-documento-achado.php">Cadastrar documento achado</a>
                     </div>
                     
                     <div class="div_menu-lateral-img-link">
                         <img src="img/sketch-red.svg" alt="">
-                        <a href="#">Cadastrar item perdido</a>
+                        <a href="/cadastrar-item-perdido.php">Cadastrar item pesadsrdido</a>
                     </div>
 
                     <div class="div_menu-lateral-img-link">

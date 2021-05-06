@@ -7,7 +7,9 @@
     <div class="chatbox">
         <div class="chatbox-top">
         <div class="chat_nome-usuario">
+        <img src="img/boy.svg" alt="">
             <p>Eraldo</p>
+            <span class="online"></span>
         </div>   
         </div>
         
@@ -65,19 +67,10 @@
                 <h5>Eraldo</h5>
             </div>
             <div class="message-box message_recebida">
-                <p>Opa, podemos sim, marcado!</p>
+                <p>Combinado. Nos vemos amanhã!</p>
             </div>
         </div>
-        
-        <div class="message-box-holder">
-            <div class="message_recebida-usuario">
-                <h5>Eraldo</h5>
-            </div>
-            <div class="message-box message_recebida">
-                <p>Até mais</p>
-            </div>
-        </div>      
-        </div>
+    
     
     <div class="chat-input-holder">
       <textarea class="chat-input" placeholder="Escreva uma mensagem..."></textarea>
@@ -87,3 +80,4 @@
   </div>
 
 </div>
+</section>

@@ -2,7 +2,6 @@ body {
     background-color: #F5F6FA;
 }
 a {
-    font-family: 'Poppins', sans-serif;
     outline: none;
     text-decoration: none;
 }
@@ -1054,6 +1053,97 @@ button:focus {
 .card-outros a{
     color: #000000;
 }
+.chat_nome-usuario img{
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+.online{
+    display: block;
+    margin-left: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: #57FA62;
+    border-radius: 30px;
+}
+.chat_list-lateral{
+    width: 25%;
+}
+.pesquisar_chat{
+    height: 40px;
+    border: 1px solid #666;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding-left: 10px;
+    width: 90%;
+    margin-left: 5%;
+}
+.pesquisar_chat input{
+    border: none;
+    margin-left: 10px;
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+}
+.chat_list-body{
+    width: 25%;
+    min-height: 100%;
+    background-color: white;
+    padding-top: 15px;
+}
+.chat_list-conversas{
+    padding-top: 40px;
+}
+.chat_list-lateral{
+    width: 100%;
+}
+.chat_list-item{
+    padding-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+.chat_list-item a{
+    color: #000000;
+}
+.chat_list-item img{
+    width: 40px;
+    margin-right: 15px;
+    height: 40px;
+    border-radius: 30px;
+}
+.chat_list-item .elementos{
+    display: flex;
+    align-items: center;
+}
+.chat_list-item p{
+    margin: 0;
+    font-size: 14px;
+}
+.chat_list-item h5{
+    font-size: 18px;
+}
+.chat_list-item .infos{
+    width: 100%;
+    border-bottom: 1px solid #666;
+    padding-bottom: 5px;
+}
+.chat_vazio{
+    background-color: #fff;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+.chat_vazio .texto{
+    margin-top: 120px;
+}
+.chat_global{
+    display: flex;
+    height: 100%;
+}
+
+
 
 /* Responsivo*/
 @media(max-width: 1666px){
