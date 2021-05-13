@@ -38,12 +38,12 @@
                 
                 <div class="div_menu-lateral-img-link">
                     <img src="img/sketch-red.svg" alt="">
-                    <a href="#">Cadastrar item perdido</a>
+                    <a href="cadastrar-item-perdido.php">Cadastrar item perdido</a>
                 </div>
 
                 <div class="div_menu-lateral-img-link">
                     <img src="img/sketch-green.svg" alt="">
-                    <a href="#">Cadastrar item achado</a>
+                    <a href="cadastro-item-achado.php">Cadastrar item achado</a>
                 </div>
                 
                 <div class="div_menu-lateral-img-link">
@@ -59,11 +59,6 @@
                 <div class="div_menu-lateral-img-link">
                     <img src="img/settings.svg" alt="">
                     <a href="#">Configurações</a>
-                </div>
-
-                <div class="div_menu-lateral-img-link">
-                    <img src="img/information.svg" alt="">
-                    <a href="#">Sobre</a>
                 </div>
 
             </div> <!-- Fim div_menu-lateral-links -->
@@ -91,12 +86,12 @@
                     
                     <div class="div_menu-lateral-img-link">
                         <img src="img/sketch-red.svg" alt="">
-                        <a href="/cadastrar-item-perdido.php">Cadastrar item pesadsrdido</a>
+                        <a href="/cadastrar-item-perdido.php">Cadastrar item perdido</a>
                     </div>
 
                     <div class="div_menu-lateral-img-link">
                         <img src="img/sketch-green.svg" alt="">
-                        <a href="#">Cadastrar item achado</a>
+                        <a href="/cadastrar-item-perdido.php">Cadastrar item achado</a>
                     </div>
                     
                     <div class="div_menu-lateral-img-link">
