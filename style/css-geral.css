@@ -1177,6 +1177,16 @@ button:focus {
 .chatbox{
     width: 73%;
 }
+.footer-sistema{
+    background-color: #155A9E;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-sistema .footer_marca{
+    width: 100%;
+}
 
 /* Responsivo*/
 @media(max-width: 1666px){

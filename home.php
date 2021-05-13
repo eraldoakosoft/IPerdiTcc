@@ -4,4 +4,4 @@
 </section>
 
 
-<!-- <?php include "footer-sistema.php" ?> -->
+<?php include "footer-sistema.php" ?>

@@ -28,5 +28,6 @@
         <button type="submit" id="cadastrarCartaoBanco" class="btn_cadastro-doc">Cadastrar</button>
     </form>
 
-
 </section>
+
+<?php include "footer-sistema.php" ?>

@@ -27,6 +27,6 @@
 
         <button type="submit" id="cadastrarCartaoSaude" class="btn_cadastro-doc">Cadastrar</button>
     </form>
-
-
 </section>
+
+<?php include "footer-sistema.php" ?>

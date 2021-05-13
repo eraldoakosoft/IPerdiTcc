@@ -266,3 +266,5 @@
 
     </div> <!-- Fim div_tipos-doc -->
 </section>
+
+<?php include "footer-sistema.php" ?>
